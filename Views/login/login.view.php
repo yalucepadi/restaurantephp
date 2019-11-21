@@ -13,7 +13,7 @@
 <div class="row">
 	<div class="col-md-12">
     <div class="conta">
-       <h1>Restaurant&nbsp;&nbsp;&nbsp;<i class="fa fa-cutlery"></i> Cajamarquino</h1>
+       <h1>Restaurante&nbsp;&nbsp;&nbsp;<i class="fa fa-cutlery"></i> Cajamarquino</h1>
 		<form class="" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 		<hr>
 	  <div class="form-group">

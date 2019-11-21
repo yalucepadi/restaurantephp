@@ -22,7 +22,7 @@ body {
   opacity: 0.9;
   margin: auto;
   width: 90%;
-  /* background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 .error {
   color: #000;
@@ -37,5 +37,5 @@ body {
   border-bottom: 3px solid rgb(87, 47, 230);
 }
 hr {
-  border: 4px solid #6666ff;
+  border: 6px solid #663300;
 }

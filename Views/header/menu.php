@@ -30,7 +30,7 @@
 </head>
 <body>
 <?php if ($_SESSION['nombreusuario'] == 'ADMINISTRADOR' OR $_SESSION['nombreusuario'] == 'administrador'): ?>
-<nav class="navbar navbar-dark bg-warning">
+<nav class="navbar navbar-light" style="background-color: #99ffcc;">
   <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
   <div class="collapse navbar-toggleable-md" id="navbarResponsive">
     <a class="navbar-brand" href="index"><i class="fa fa-table" aria-hidden="true"></i> Reservas</a>
@@ -112,9 +112,9 @@
 
       <!-- USUARIO NO ADMINISTRADOR -->
        <li class="nav-item dropdown  nav-item active float-xs-right">
-         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-windows btn btn-warning btn-sm" aria-hidden="true"></i> Hola ! <?php echo  ' ' .strtoupper($_SESSION[ 'nombreusuario']);  ?></a>
+         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-home btn btn-warning btn-sm" aria-hidden="true"></i> Hola ! <?php echo  ' ' .strtoupper($_SESSION[ 'nombreusuario']);  ?></a>
          <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-          <a class="dropdown-item" href="salir"><i class="btn btn-primary btn-sm fa fa-window-close-o"> </i> Cerrar Sesión</a>
+          <a class="dropdown-item" href="salir"><i class="btn btn-primary btn-sm fas fa-home "></i> Cerrar Sesión</a>
        
 
         </div>
