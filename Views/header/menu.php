@@ -11,12 +11,14 @@
   <link rel="stylesheet" href="assets/css/estilos.css"> 
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/chosen/chosen.min.css">
-
+<!--
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/chosen.min.css">
-	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/css/solid.min.css">
 
+
+-->
+<link rel="stylesheet" href="assets/css/solid.min.css">
+<link rel="stylesheet" href="assets/css/fontawesome.min.css">
 
 <script src="assets/js/lib/jquery.js"></script>
 <script src="assets/js/lib/jquery.dataTables.js"></script>
