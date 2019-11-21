@@ -3,7 +3,7 @@
 
 <footer>
 	<center>
-		<small><i><?php echo date('Y'); ?> <a href="http://seecorpdesarrollos.esy.es/" target="_blanck"> SeecorpDesarrollos.</a></i></small>
+		<small><i><?php echo date('Y'); ?> <a href="http://seecorpdesarrollos.esy.es/" target="_blanck"></a></i></small>
 	</center>
 </footer>
 </div>
