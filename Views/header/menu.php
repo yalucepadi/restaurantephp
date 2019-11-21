@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/chosen/chosen.min.css">
 
-
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/chosen.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/css/solid.min.css">
 
 
 <script src="assets/js/lib/jquery.js"></script>
@@ -105,7 +108,7 @@
 
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
           <a id="sub" class="dropdown-item" href="principalVentas"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Mesas</a>
-          <a id="sub" class="dropdown-item" href="ventasDiarias"><i class="btn btn-danger btn-sm  fa fa-usd"></i>Ventas Diarias</a>
+          <a id="sub" class="dropdown-item" href="ventasDiarias"><i class="btn btn-danger btn-sm fas fa-money-bill"></i>Ventas Diarias</a>
         
         </div>
       </li> 
